@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Gill Sans';
+}
+header{
+    background-color: rgb(227, 221, 233);
+}
+header div{
+    width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+}
+header .logo{
+    width: 20%;   
+}
+
+header .menu{
+    width: 80%;
+}
+
+/*Menu css*/
+nav{
+    background-color: rgba(35, 113, 150, 0.63);
+}
+nav .container > ul{
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+nav ul li a{
+    display: inline-block;
+    color: whitesmoke;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+}
+nav ul li a:hover{
+    background-color: crimson;
+}
+nav ul li ul{
+    position: absolute;
+    background-color: rgb(80, 185, 54);
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+}
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible ;
+}
+
+
+/*
+#main{
+    background-color: blue;
+}
+#main .main_content{
+    background-color: darkkhaki;
+}
+#main .sidebar{
+    background-color: darksalmon;
+}
+footer{
+    background-color: aqua;
+}
+*/
